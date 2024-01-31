@@ -2,9 +2,11 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Tirgol from './cmp/Tirgol'
+// import Tirgol from './cmp/Tirgol'
 import Ex1 from './cmp/Ex1'
 import Ex2 from './cmp/Ex2'
+import Ex3 from './cmp/Ex3'
+// import Tirgol1 from './cmp/week5/Tirgol1'
 
 function App() {
 
@@ -19,9 +21,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-     <Tirgol></Tirgol>
+     {/* <Tirgol1></Tirgol1> */}
      <Ex1></Ex1>
      <Ex2></Ex2>
+     <Ex3></Ex3>
     </>
   )
 }
